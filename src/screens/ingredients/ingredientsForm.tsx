@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useTheme } from 'styled-components';
 import { FormTitle } from '../../components/forms/FormTitle';
 import { FormField } from '../../components/forms/FormField';
-import { BasicButton } from '../../components/buttons/Button';
+import { BasicButton } from '../../components/buttons/BasicButton';
 import { saveIngredient } from './ingredientRequests'
 
 import styled from "styled-components/native";
@@ -13,6 +13,8 @@ interface IngredientsForm {
     formVisible: boolean;
     setFormVisible: (visible: boolean) => void;
 }
+
+//ESTE COMPONENTE SERÁ MODIFICADO PARA TAMBÉM FAZER A FUNÇÃO DE UPDATE. INACABADO
 
 export function IngredientsForm({ingredientId, formVisible, setFormVisible}: IngredientsForm) {
 
@@ -68,7 +70,6 @@ export function IngredientsForm({ingredientId, formVisible, setFormVisible}: Ing
         </Modal>
     );
 }
-
 
 const ModalContainer = styled.View`
   flex: 1;

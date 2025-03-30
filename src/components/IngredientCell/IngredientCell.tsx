@@ -1,7 +1,11 @@
+/*******  
+ EM CONSTRUÇÃO
+ ******/
+  
 import styled from "styled-components/native";
 import { useTheme } from "styled-components/native";
 import ingredientCell from "../../assets/images/ingredientCell.png";
-import { Image, TouchableOpacity } from "react-native";
+import { Image } from "react-native";
 
 interface NewCellProps {
     id: BigInteger;

@@ -6,9 +6,9 @@ import { IngredientsForm } from './ingredientsForm';
 import { getAllIngredients } from './ingredientRequests';
 import { IngredientCell } from '../../components/IngredientCell/IngredientCell';
 import styled from "styled-components/native";
-import { View } from 'react-native';
 
 export function Ingredients() {
+    
     const theme = useTheme();
     const [id, setId] = useState(0);
     const [formVisible, setFormVisible] = useState(false);
@@ -32,13 +32,14 @@ export function Ingredients() {
         setFormVisible(true);
     };
 
+    //COMPONENTE EM CONSTRUÇÃO - NÃO FINALIZADO
     return (
         <Container>
             <FlatList
                 data={ingredients}
                 keyExtractor={(item) => item.id.toString()}
-                numColumns={2} // Para manter duas colunas
-                columnWrapperStyle={{ justifyContent: "space-around" }} // Mantém espaçamento entre os itens
+                numColumns={2}
+                columnWrapperStyle={{ justifyContent: "space-around" }}
                 contentContainerStyle={{ paddingBottom: 20, gap: 10 }}
                 renderItem={({ item }) => (
                     <IngredientCell

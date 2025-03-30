@@ -5,7 +5,7 @@ export function Costs(){
     return(
         <View>
             <Text>
-                Custos Indiretos
+                Em construção
             </Text>
         </View>
     )

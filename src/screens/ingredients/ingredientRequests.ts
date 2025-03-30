@@ -7,6 +7,8 @@ interface IngredientInterface {
     description : string;
 };
 
+//METODOS INACABADOS. FALTA IMPLEMENTAR MELHOR TRATATIVA DE ERROS ADEQUADA. MANTIDA A GENERICA TEMPORARIAMENTE
+
 export async function saveIngredient({name,description}: IngredientInterface){
     if (!name.trim()) {
         Alert.alert("Erro", "O nome do ingrediente é obrigatório!");

@@ -1,6 +1,8 @@
 import api from "../../api";
 import { Ingredient } from "./ingredientTypes";
 
+//O BACK-END AINDA NÃO POSSUI TRATAMENTO DE ERROS ADEQUADO, NEM TODOS OS END-POINTS DISPONÍVES
+//AINDA ESTÁ EM CONSTRUÇÃO
 export const ingredientService = {
     getIngredients: async (): Promise<Ingredient[]> => {
         const response = await api.get("/ingredient");

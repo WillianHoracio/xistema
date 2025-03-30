@@ -1,4 +1,3 @@
-import { View, Text, Alert, Modal, TextInput } from 'react-native'
 import styled from "styled-components/native";
 
 interface basicButtonProps {
@@ -8,6 +7,16 @@ interface basicButtonProps {
     eventHandler: () => void | Promise<void>;
 }
 
+export function BasicButton({text,buttonColor,fontColor,eventHandler}: basicButtonProps){
+    
+    return(
+        <CustomButton buttonColor={buttonColor}>
+            <ButtonText fontColor={fontColor} onPress={eventHandler}>
+                {text}
+            </ButtonText>
+        </CustomButton>
+    )
+}
 
 const CustomButton = styled.TouchableOpacity<{ buttonColor: string}>`
     background-color: ${({ buttonColor }) => buttonColor};
@@ -24,14 +33,3 @@ const ButtonText = styled.Text<{ fontColor: string}>`
     font-weight: 800;
     text-align: center;
 `;
-
-export function BasicButton({text,buttonColor,fontColor,eventHandler}: basicButtonProps){
-    
-    return(
-        <CustomButton buttonColor={buttonColor}>
-            <ButtonText fontColor={fontColor} onPress={eventHandler}>
-                {text}
-            </ButtonText>
-        </CustomButton>
-    )
-}

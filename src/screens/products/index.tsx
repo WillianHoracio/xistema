@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text } from 'react-native'
 import { NewCell } from '../../components/NewCell'
 
-
-
 export function Products(){
+
 
     const [modalNewState, setModalNewState] = useState(false);
 
@@ -14,6 +13,7 @@ export function Products(){
 
     return(
         <View>
+            <Text> Em construção</Text>
             <NewCell width='40%' height='150px' handleClick={handleNew}/>
         </View>
     )
