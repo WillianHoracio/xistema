@@ -5,6 +5,8 @@ Xistema é um projeto de integração entre um aplicativo Front-end em React Nat
 Objetivo do Projeto:
 O propósito da aplicação é auxiliar o gerenciamento de negócios no setor alimentício, como hamburguerias, pizzarias, restaurantes e similares.
 
+
+
 Funcionalidades Planejadas
 
 -> Gestão de Estoque e Inventário: Controle detalhado de matéria-prima e ingredientes.
@@ -13,6 +15,8 @@ Funcionalidades Planejadas
 
 -> Estimativas Inteligentes: Análise automática da quantidade de produtos que podem ser produzidos com o estoque atual.
 
+
+
 Expansão Futura:
 Após a conclusão dessa primeira fase, será desenvolvido um novo microserviço para vendas, incluindo:
 
@@ -20,16 +24,28 @@ Após a conclusão dessa primeira fase, será desenvolvido um novo microserviço
 
 ->Fluxo de caixa e controle de recebimentos (Possivelmente um microsserviço separado para fins de aprendizado prático)
 
-Esse microserviço permitirá a venda dos produtos diretamente pela plataforma, tornando a gestão ainda mais eficiente.
+Esse microserviço permitirá a venda dos produtos diretamente pela plataforma, com a entrada de pedidos em tempo real via websocket.
 
-Tecnologias Utilizadas
+
+
+Tecnologias Utilizadas:
+
 Front-end: React Native
+
 Back-end: Java + Spring Boot
+
 Banco de Dados: Postgres
 
+
 Tecnologias a serem aplicadas no futuro:
+
 Serviço de mensageria para os pedidos (Kafka)
+
 Publicação dos servidores na AWS
+
+Websocket
+
+
 
 OBSERVAÇÃO IMPORTANTE:
 Este repositório está em estágios iniciais de desenvolvimento, e algumas coisas ainda estão sendo testadas/remodeladas no processo. Alguns componentes não com estão com lógica estrutura finalizada.
