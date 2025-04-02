@@ -6,13 +6,18 @@ Objetivo do Projeto:
 O propósito da aplicação é auxiliar o gerenciamento de negócios no setor alimentício, como hamburguerias, pizzarias, restaurantes e similares.
 
 Funcionalidades Planejadas
+
 -> Gestão de Estoque e Inventário: Controle detalhado de matéria-prima e ingredientes.
+
 -> Cálculo de Custo dos Produtos: Com base nos ingredientes, serviços e custos indiretos.
+
 -> Estimativas Inteligentes: Análise automática da quantidade de produtos que podem ser produzidos com o estoque atual.
 
 Expansão Futura:
 Após a conclusão dessa primeira fase, será desenvolvido um novo microserviço para vendas, incluindo:
+
 ->Gerenciamento financeiro completo
+
 ->Fluxo de caixa e controle de recebimentos (Possivelmente um microsserviço separado para fins de aprendizado prático)
 
 Esse microserviço permitirá a venda dos produtos diretamente pela plataforma, tornando a gestão ainda mais eficiente.
