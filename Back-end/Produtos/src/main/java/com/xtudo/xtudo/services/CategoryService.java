@@ -1,6 +1,6 @@
-package com.xtudo.xtudo.Services;
+package com.xtudo.xtudo.services;
 
-import com.xtudo.xtudo.Repositories.CategoryRepository;
+import com.xtudo.xtudo.repositories.CategoryRepository;
 import com.xtudo.xtudo.models.Category;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

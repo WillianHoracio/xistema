@@ -1,6 +1,6 @@
 package com.xtudo.xtudo.controllers;
 
-import com.xtudo.xtudo.Services.CategoryService;
+import com.xtudo.xtudo.services.CategoryService;
 import com.xtudo.xtudo.models.Category;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.xtudo.xtudo.Repositories;
+package com.xtudo.xtudo.repositories;
 
 import com.xtudo.xtudo.models.Ingredient;
 import org.springframework.data.jpa.repository.JpaRepository;

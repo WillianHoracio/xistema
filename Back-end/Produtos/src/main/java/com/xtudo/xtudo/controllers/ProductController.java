@@ -1,6 +1,6 @@
 package com.xtudo.xtudo.controllers;
 
-import com.xtudo.xtudo.Services.ProductService;
+import com.xtudo.xtudo.services.ProductService;
 import com.xtudo.xtudo.models.Product;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;

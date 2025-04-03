@@ -1,6 +1,6 @@
-package com.xtudo.xtudo.Services;
+package com.xtudo.xtudo.services;
 
-import com.xtudo.xtudo.Repositories.CompositionRepository;
+import com.xtudo.xtudo.repositories.CompositionRepository;
 import com.xtudo.xtudo.models.Composition;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

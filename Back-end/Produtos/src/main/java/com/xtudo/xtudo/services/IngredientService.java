@@ -1,6 +1,6 @@
-package com.xtudo.xtudo.Services;
+package com.xtudo.xtudo.services;
 
-import com.xtudo.xtudo.Repositories.IngredientRepository;
+import com.xtudo.xtudo.repositories.IngredientRepository;
 import com.xtudo.xtudo.models.Ingredient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -21,5 +21,9 @@ public class IngredientService {
         return ingredientRepository.findAll();
     }
 
+    public Ingredient findById(Long id){
+        return ingredientRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Ingrediente não encontrado. ID [" + id +"]"));
+    }
     /*public Ingredient update(Ingredient ingredient) { return ingredientRepository.}*/
 }

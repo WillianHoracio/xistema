@@ -1,6 +1,6 @@
 package com.xtudo.xtudo.controllers;
 
-import com.xtudo.xtudo.Services.CompositionService;
+import com.xtudo.xtudo.services.CompositionService;
 import com.xtudo.xtudo.models.Composition;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
