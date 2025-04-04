@@ -32,6 +32,6 @@ public class IngredientController {
 
     @PostMapping
     public Ingredient create(@Valid @RequestBody Ingredient ingredient){
-        return ingredientService.create(ingredient);
+        return ingredientService.save(ingredient);
     }
 }
