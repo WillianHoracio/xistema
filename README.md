@@ -1,3 +1,5 @@
+PROJETO PAUSADO - Estou reformulando para tentar implementar integrada ao sistema para futuras manutenções autonomas.
+
 Xistema – Integração React Native & Spring Boot
 
 Xistema é um projeto de integração entre um aplicativo Front-end em React Native e um servidor Back-end em Java Spring Boot.
